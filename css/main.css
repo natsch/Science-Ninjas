@@ -44,13 +44,35 @@ body {
 }
 
 a {
-  color:red;
+  color: red;
+  color: #2678c1;
+  transition: .2s ease-out;
+}
 
+a:hover {
+  color: #eb605f;
+}
+
+.btn {
+  border-radius: 3px;
+  background: #2678c1;
+  display: inline-block;
+  color: white;
+  padding: 10px 15px;
+  transition: .2s ease-out;
+  margin: 20px 0;
+}
+.btn:hover {
+  background: #eb605f;
 }
 
 h1 {
-	font-family:Raleway;
   font-size: 35px;
+}
+
+h1.home-lead {
+  font-size: 26px;
+  font-weight: 700;
 }
 
 h2 {
@@ -141,7 +163,7 @@ h3 {
 
 
 button {
-	font-family:Raleway;
+	font-family: Raleway;
 	background-color:#ec5849;
 	border:0px;
 }
@@ -191,7 +213,7 @@ li{
 
 .footer {
   font-size: 13px;
-  padding: 30px 0;
+  padding: 45px 0;
 	width: 100%;
   margin-top: 40px;
     margin-bottom: 0px;
@@ -240,7 +262,7 @@ li{
   width: 100px;
   height: 50px;
   margin: auto;
-  border-radius: 10px;
+  border-radius: 3px;
   padding: 15px 0;
   text-align: center;
   align-items: center;
