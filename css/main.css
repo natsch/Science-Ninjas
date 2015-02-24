@@ -198,6 +198,7 @@ li{
     display: flex;
 	background-color:#FB3838;
 	color:#ffffff;
+  line-height: 20px;
 }
 
 .footer a{
