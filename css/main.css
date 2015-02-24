@@ -60,46 +60,29 @@ h2 {
 
 
 .module {
-  background:  url("../images/characters.jpg");
   background-size: cover;
   width: 100%;
   height: 204px;
-  margin: 10px 0 0 10px;
+  margin: 10px 0 0 0;
   position: relative;
   float: left;
 }
 
-.module2 {
+.mod-characters {
+  background: url("../images/characters.jpg");
+}
+
+.mod-cartoons {
   background:  url("../images/cartoons.jpg");
-  background-size: cover;
-  width: 100%;
-  height: 204px;
-  margin: 10px 0 0 10px;
-  position: relative;
-  float: left;
 }
 
-.module3 {
+.mod-journey {
   background:  url("../images/journey.jpg");
-  background-size: cover;
-  width: 100%;
-  height: 204px;
-  margin: 10px 0 0 10px;
-  position: relative;
-  float: left;
 }
 
-.module4 {
+.mod-sixpath {
   background:  url("../images/sixpaths.jpg");
-  background-size: cover;
-  width: 100%;
-  height: 204px;
-  margin: 10px 0 0 10px;
-  position: relative;
-  float: left;
 }
-
-
 
 
 .top h2 {
