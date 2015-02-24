@@ -40,8 +40,7 @@
 
 
 body {
-  font-family:Raleway;
-
+  font-family: Raleway;
 }
 
 a {
@@ -58,57 +57,81 @@ h2 {
   font-size: 24px;
 }
 
-
-.module {
+.r-module {
   background-size: cover;
   width: 100%;
   height: 204px;
-  margin: 10px 0 0 0;
+  margin: 20px 0;
   position: relative;
-  float: left;
+  background-repeat: no-repeat;
+  transition: .2s ease-out;
+  margin: 15px 0;
+}
+
+a:hover.r-module {
+  text-decoration: none;
+}
+
+.r-module h2 {
+  margin: 0;
+  padding: 20px 0 0 10px;
+  font-size: 36px;
+  transition: .2s ease-out;
+  color: white;
+}
+
+.r-module h3 {
+  padding-left: 10px;
+  margin: 0;
+  color: white;
+  transition: .2s ease-out;
+}
+
+.r-module:hover h2,
+.r-module:hover h3 {
+  opacity: 0;
 }
 
 .mod-characters {
-  background: url("../images/characters.jpg");
+  background-image: url("../images/characters.jpg");
+}
+
+.mod-characters:hover {
+  opacity: .8;
+  background-image: url("../images/characters-hover.jpg");
 }
 
 .mod-cartoons {
-  background:  url("../images/cartoons.jpg");
+  background-image:  url("../images/cartoons.jpg");
+}
+
+.mod-cartoons:hover {
+  background-image:  url("../images/cartoons-hover.jpg");
 }
 
 .mod-journey {
-  background:  url("../images/journey.jpg");
+  background-image:  url("../images/journey.jpg");
+}
+
+.mod-journey:hover {
+  background-image:  url("../images/journey-hover.jpg");
 }
 
 .mod-sixpath {
-  background:  url("../images/sixpaths.jpg");
+  background-image:  url("../images/sixpaths.jpg");
+}
+
+.mod-sixpath:hover {
+  background-image:  url("../images/sixpaths-hover.jpg");
 }
 
 .mod-teabag {
-  background:  url("../images/teabag.jpg");
+  background-image:  url("../images/teabag.jpg");
 }
 
-
-.top h2 {
-  float:right;
-  color: white;
-  margin: 0;
-  padding: 10px;
-  font-size: 36px;
+.mod-teabag:hover {
+  background-image:  url("../images/teabag-hover.jpg");
 }
-
-.top a {
-  float:right;
-  color: white;
-  margin: 0;
-  padding: 10px;
-  font-size: 36px;
-}
-
-
-
-
-
 
 
 h3 {
