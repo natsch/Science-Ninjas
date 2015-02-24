@@ -81,7 +81,7 @@ a:hover.r-module {
 }
 
 .r-module:hover h2 {
-  color: #333;
+  opacity: 0;
 }
 
 .mod-characters {
