@@ -216,19 +216,20 @@ button {
 }
 
 .footer {
-  font-size: 13px;
-  padding: 45px 0;
-	width: 100%;
+  padding: 75px 0;
   margin-top: 40px;
-    margin-bottom: 0px;
-    display: flex;
 	background-color:#FB3838;
-	color:#ffffff;
-  line-height: 20px;
+  background: #eb605f;
+	color:#fff;
+  line-height: 28px;
 }
 
 .footer a{
   color:rgb(252, 243, 85);
+}
+
+.footer a:hover {
+  text-decoration: underline;
 }
 
 #buttons {
