@@ -32,6 +32,7 @@
 
 body {
   font-family: Raleway;
+  font-size: 16px;
 }
 
 a {
@@ -69,6 +70,7 @@ h1.home-lead {
 
 h2 {
   font-size: 24px;
+  line-height: 30px;
 }
 
 .r-module {
@@ -226,7 +228,7 @@ button {
   border-radius: 3px;
   padding: 5px 10px;
   transition: .2s all ease-out;
-  font-weight: bold;
+  font-weight: 500;
 }
 
 #buttons a:hover{
@@ -248,20 +250,11 @@ button {
  *******************************/
 
 
-@media only screen and (max-width:518px) {
+@media only screen and (max-width: 640px) {
 
   a.disappear {
     display:none;
   }
-
-  #buttons a:hover{
-    background: transparent;
-    color: #333;
-  }
-
-}
-
-@media only screen and (max-width: 640px) {
 
   .flexwrap{
     flex-wrap: wrap;
@@ -270,6 +263,12 @@ button {
   div.footer{
     font-size: 9px;
   }
+
+  #buttons a:hover{
+    background: transparent;
+    color: #333;
+  }
+
 }
 
 @media only screen and (max-width: 690px) {
