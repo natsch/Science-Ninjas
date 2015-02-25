@@ -95,6 +95,12 @@ h2 {
   line-height: 32px;
 }
 
+h3 {
+  font-family: Varela Round;
+  font-size: 22px;
+  padding-top: 10px;
+  margin-bottom: 20px;
+}
 
 .r-module {
   background-size: cover;
@@ -171,14 +177,6 @@ a:hover.r-module {
 .mod-teabag:hover {
   background-image:  url("../images/teabag-hover.jpg");
 }
-
-
-h3 {
-  font-family: Varela Round;
-  font-size: 22px;
-  padding-top: 10px;
-}
-
 
 button {
 	font-family: Raleway;
