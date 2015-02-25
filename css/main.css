@@ -33,11 +33,13 @@
 body {
   font-family: Raleway;
   font-size: 16px;
+  color: #333;
 }
 
 a {
   color: red;
   color: #2678c1;
+  color: #0c77f7;
   transition: .2s ease-out;
 }
 
@@ -48,6 +50,7 @@ a:hover {
 .btn {
   border-radius: 3px;
   background: #2678c1;
+  background: #0c77f7;
   display: inline-block;
   color: white;
   padding: 10px 15px;
