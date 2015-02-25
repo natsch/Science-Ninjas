@@ -193,6 +193,20 @@ button {
     margin: 0 auto 4px auto;
 }
 
+.quote {
+  font-size: 24px;
+  margin: 20px 0 7px 0;
+}
+
+.quote-author {
+  margin-bottom: 40px;
+  color: #888;
+}
+
+.me-with-kids {
+  margin: 0 auto;
+}
+
 .prefooter {
     display: flex;
     width: 100%;
