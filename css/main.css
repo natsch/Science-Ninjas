@@ -199,6 +199,7 @@ button {
 .quote {
   font-size: 24px;
   margin: 20px 0 7px 0;
+  line-height: 34px;
 }
 
 .quote-author {
