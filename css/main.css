@@ -310,11 +310,6 @@ a:hover.r-module {
     font-size: 9px;
   }
 
-  ul.navigation a:hover li {
-    background: transparent;
-    color: #333;
-  }
-
   ul.navigation a li{
     color: white;
     background: #eb605f;
