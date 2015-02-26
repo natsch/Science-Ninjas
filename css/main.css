@@ -121,6 +121,52 @@ h3 {
   margin-bottom: 20px;
 }
 
+button {
+  font-family: 'Raleway', sans-serif;
+  background-color: #ec5849;
+  border:0px;
+}
+
+.grid {
+    margin: 0 auto;
+    max-width: 740px;
+    width: 100%;
+}
+
+.row {
+    display: flex;
+    width: 100%;
+    margin: 0 auto 4px auto;
+}
+
+ul.navigation {
+  padding: 0;
+  text-align: center;
+}
+
+ul.navigation li {
+  position: relative;
+  text-align: center;
+  display: inline;
+}/* ie needs position:relative here*/
+
+ul.navigation a li {
+  text-decoration: none;
+  font-family: 'Varela', sans-serif;
+  color: #222;
+  /*margin: auto;*/
+  border-radius: 3px;
+  padding: 5px 10px;
+  transition: .2s all ease-out;
+  font-weight: 500;
+}
+
+ul.navigation a:hover li{
+  color: white;
+  background: #FB3838;
+  background: #eb605f;
+}
+
 .r-module {
   background-size: cover;
   width: 100%;
@@ -196,57 +242,6 @@ a:hover.r-module {
 .mod-teabag:hover {
   background-image:  url("../images/teabag-hover.jpg");
 }
-
-button {
-	font-family: 'Raleway', sans-serif;
-	background-color: #ec5849;
-	border:0px;
-}
-
-.grid {
-    margin: 0 auto;
-    max-width: 740px;
-    width: 100%;
-}
-
-.row {
-    display: flex;
-    width: 100%;
-    margin: 0 auto 4px auto;
-}
-
-ul.navigation {
-  padding: 0;
-  text-align: center;
-}
-
-ul.navigation li {
-  position: relative;
-  text-align: center;
-  display: inline;
-}/* ie needs position:relative here*/
-
-ul.navigation a li {
-  text-decoration: none;
-  font-family: 'Varela', sans-serif;
-  color: #222;
-  /*margin: auto;*/
-  border-radius: 3px;
-  padding: 5px 10px;
-  transition: .2s all ease-out;
-  font-weight: 500;
-}
-
-ul.navigation a:hover li{
-  color: white;
-  background: #FB3838;
-  background: #eb605f;
-}
-
-/*#content{
-  overflow:hidden
-}/* hide horizontal scrollbar*/
-
 
 .quote {
   font-size: 24px;
