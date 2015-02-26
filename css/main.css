@@ -142,6 +142,7 @@ button {
 ul.navigation {
   padding: 0;
   text-align: center;
+  margin: 10px 0 0;
 }
 
 ul.navigation a li {
