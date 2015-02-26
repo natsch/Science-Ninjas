@@ -1,4 +1,10 @@
-/* latin */
+/*******************************
+ *
+ *      Custom Fonts
+ *
+ *******************************/
+
+ /* latin */
 @font-face {
   font-family: 'Raleway';
   font-style: normal;
@@ -22,17 +28,22 @@
   src: local('Raleway Bold'), local('Raleway-Bold'), url(http://fonts.gstatic.com/s/raleway/v9/JbtMzqLaYbbbCL9X6EvaIwzyDMXhdD8sAj6OAJTFsBI.woff2) format('woff2');
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
 }
-
-
 /* latin */
 @font-face {
-  font-family: 'Varela Round';
+  font-family: 'Varela Round', sans-serif;
   font-style: normal;
   font-weight: 400;
   src: local('Varela Round'), local('VarelaRound-Regular'), url(http://fonts.gstatic.com/s/varelaround/v6/APH4jr0uSos5wiut5cpjrhampu5_7CjHW5spxoeN3Vs.woff2) format('woff2');
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
 }
 
+
+
+/*******************************
+ *
+ *      Main Styles
+ *
+ *******************************/
 
 * {
     -webkit-box-sizing: border-box;
@@ -179,8 +190,8 @@ a:hover.r-module {
 }
 
 button {
-	font-family: Raleway;
-	background-color:#ec5849;
+	font-family: 'Raleway', sans-serif;
+	background-color: #ec5849;
 	border:0px;
 }
 
@@ -195,6 +206,39 @@ button {
     width: 100%;
     margin: 0 auto 4px auto;
 }
+
+ul.navigation {
+  padding: 0;
+  text-align: center;
+}
+
+ul.navigation li {
+  position: relative;
+  text-align: center;
+  display: inline;
+}/* ie needs position:relative here*/
+
+ul.navigation a li {
+  text-decoration: none;
+  font-family: 'Varela Round', sans-serif;
+  color: #222;
+  /*margin: auto;*/
+  border-radius: 3px;
+  padding: 5px 10px;
+  transition: .2s all ease-out;
+  font-weight: 500;
+}
+
+ul.navigation a:hover li{
+  color: white;
+  background: #FB3838;
+  background: #eb605f;
+}
+
+/*#content{
+  overflow:hidden
+}/* hide horizontal scrollbar*/
+
 
 .quote {
   font-size: 24px;
@@ -215,8 +259,7 @@ button {
     display: flex;
     width: 100%;
     text-align: center;
-    margin: 20px auto 20px auto;
-
+    margin: 20px auto;
 }
 
 .footer {
@@ -244,51 +287,6 @@ button {
 .footer a:hover {
   text-decoration: underline;
 }
-
-#buttons {
-  position:relative;
-  text-align:left;
-  margin: 0 auto;
-}
-#buttons ul {
-  list-style: none;
-  position: relative;
-  padding: 0px;
-  height: 50px;
-  /*display: table-row;*/
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-#buttons li {
-  /*float:left;*/
-  position:relative;
-  text-align: center;
-  align-items: center;
-  }/* ie needs position:relative here*/
-
-#buttons a {
-  text-decoration: none;
-  font-family: Varela Round;
-  color: #222;
-  margin: auto;
-  border-radius: 3px;
-  padding: 5px 10px;
-  transition: .2s all ease-out;
-  font-weight: 500;
-}
-
-#buttons a:hover{
-  color: white;
-  background: #FB3838;
-  background: #eb605f;
-}
-
-#content{
-  overflow:hidden
-}/* hide horizontal scrollbar*/
-
 
 
 
