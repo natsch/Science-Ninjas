@@ -144,17 +144,12 @@ ul.navigation {
   text-align: center;
 }
 
-ul.navigation li {
-  position: relative;
+ul.navigation a li {
   text-align: center;
   display: inline;
-}/* ie needs position:relative here*/
-
-ul.navigation a li {
   text-decoration: none;
   font-family: 'Varela', sans-serif;
   color: #222;
-  /*margin: auto;*/
   border-radius: 3px;
   padding: 5px 10px;
   transition: .2s all ease-out;
@@ -303,20 +298,27 @@ a:hover.r-module {
 @media only screen and (max-width: 640px) {
 
   a.disappear {
-    display:none;
+    display: none;
   }
 
-  .flexwrap{
+  .flexwrap {
     flex-wrap: wrap;
   }
 
-  div.footer{
+  div.footer {
     font-size: 9px;
   }
 
-  #buttons a:hover{
+  ul.navigation a:hover li {
     background: transparent;
     color: #333;
+  }
+
+  ul.navigation a li{
+    color: white;
+    background: #eb605f;
+    font-size: 10px;
+    display: inline-block;
   }
 
 }
