@@ -296,18 +296,10 @@ a:hover.r-module {
  *******************************/
 
 
-@media only screen and (max-width: 640px) {
-
-  a.disappear {
-    display: none;
-  }
+@media only screen and (max-width: 768px) {
 
   .flexwrap {
     flex-wrap: wrap;
-  }
-
-  div.footer {
-    font-size: 9px;
   }
 
   ul.navigation a li{
@@ -318,12 +310,13 @@ a:hover.r-module {
     margin: 5px 0 0;
   }
 
-}
+  .footer-section {
+    margin: 10px 0;
+    text-align: center;
+  }
 
-@media only screen and (max-width: 690px) {
-    p.disappearsmall{display:none;}
-}
+  ul.navigation .hide-me {
+    display: none;
+  }
 
-@media only screen and (min-width: 690px) {
-    p.disappearbig{display:none;}
 }
