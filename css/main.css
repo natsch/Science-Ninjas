@@ -198,6 +198,12 @@ a:hover.r-module {
   opacity: 0;
 }
 
+.r-module h4 {
+  color:black;
+  font-size: 24px;
+  margin-top: 160px;
+}
+
 .mod-characters {
   background-image: url("../images/characters.jpg");
 }
@@ -233,6 +239,10 @@ a:hover.r-module {
 
 .mod-teabag {
   background-image:  url("../images/teabag.jpg");
+}
+
+.mod-brooklyn {
+  background-image:  url("../images/brooklyn.jpg");
 }
 
 .mod-teabag:hover {
