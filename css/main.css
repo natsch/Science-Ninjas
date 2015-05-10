@@ -108,6 +108,10 @@ h1.home-lead {
   font-weight: 700;
 }
 
+p.centertext {
+   text-align: center;
+}
+
 h2 {
   font-size: 24px;
   font-family: 'Varela', sans-serif;
