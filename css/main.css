@@ -197,8 +197,16 @@ a:hover.r-module {
   transition: .2s ease-out;
 }
 
+.r-module h5 {
+  padding-left: 10px;
+  margin: 0;
+  color: white;
+  transition: .2s ease-out;
+}
+
 .r-module:hover h2,
-.r-module:hover h3 {
+.r-module:hover h3,
+.r-module:hover h5 {
   opacity: 0;
 }
 
@@ -224,6 +232,15 @@ a:hover.r-module {
 .mod-cartoons:hover {
   background-image:  url("../images/cartoons-hover.jpg");
 }
+
+.mod-rocket {
+  background-image:  url("../images/rocket.jpg");
+}
+
+.mod-rocket:hover {
+  background-image:  url("../images/rocket-hover.jpg");
+}
+
 
 .mod-journey {
   background-image:  url("../images/journey.jpg");
