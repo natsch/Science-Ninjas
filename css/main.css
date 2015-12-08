@@ -241,6 +241,14 @@ a:hover.r-module {
   background-image:  url("../images/rocket-hover.jpg");
 }
 
+.mod-arrows {
+  background-image: url("../images/arrows.jpg");
+}
+
+.mod-arrows:hover {
+  background-image: url("../images/arrows-hover.jpg");
+}
+
 
 .mod-journey {
   background-image:  url("../images/journey.jpg");
